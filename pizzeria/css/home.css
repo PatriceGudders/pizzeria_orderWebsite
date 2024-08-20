@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+/*Variabelen*/
+:root {
+    --tekstkleur: #ffffff;
+    --achtergrondkleurEen: #ce2b37;
+    --achtergrondkleurTwee: #009246;
+    --tekstfontEen: "Amatic SC", sans-serif;
+    --marginLinksRechts: 2vw;
+    --marginBoven: 2vw;
+    --marginOnder: 1.7vw;
+    --paddingBoven: 1.7vw;
+    --paddingOnder: 1.5vw;
+    --negPaddingOnder: -1.5vw;
+    --negPaddingBoven: -1.7vw;
+    --negMarginOnder: -1.7vw;
+    --negMarginBoven: -2vw;
+    --negMarginLinksRechts: -2vw;
+}
+
+
+
+/*CSS resets*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--tekstfontEen);
+}
+
+.wrapper h1 {
+    text-align: center;
+    color: var(--achtergrondkleurEen);
+    padding-top: var(--marginBoven);
+    padding-bottom: var(--marginOnder);
+    font-size: 300%;
+}
+
+.pizzamenu {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.menu-item {
+    display: flex;
+}
+
+.menu-item-text {
+    flex-grow: 1;
+}
+
+.menu-item-heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.menu-item-name {
+    margin-right: 1.5em;
+}
+
+.menu-item-desc {
+    line-height: 1.6;
+}
+
+.icoonToevoegen {
+    margin-left: 1rem;
+}
+
+.icoonToevoegen:hover {
+    border: 1px solid #777;
+}

@@ -1,0 +1,53 @@
+.title {
+    margin-left: 5%;
+    margin-bottom: 2rem;
+}
+
+article {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+
+}
+article h2 {
+    margin-bottom: 1rem;
+}
+
+#chef {
+    font-weight: bold;
+}
+
+section {
+    width: 80%;
+    height: 30rem;
+    background-color: #ce2b37;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2rem;
+    overflow-y: scroll;
+    margin: 10rem auto 10rem auto;
+}
+
+section h1, section h2 {
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+/*CUSTOM SCROLLBAR GLOBALLY*/
+section::-webkit-scrollbar {
+    width: 20px;
+}
+
+section::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+
+section::-webkit-scrollbar-corner {
+    background: rgba(0, 0, 0, 0);
+}
+

@@ -1,0 +1,90 @@
+aside {
+    position: fixed;
+    right: 8.5rem;
+    bottom: 1rem;
+    width: 20vw;
+    min-width: 400px;
+    height: 20vh;
+    background-color: #ce2b37;
+    z-index: 2;
+    padding: 1rem;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    overflow-y: scroll;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0 1rem 0;
+}
+
+th, td {
+    text-align: left;
+}
+
+tfoot tr {
+    padding-top: 1rem;
+}
+
+#caddy h2 {
+    color: #ffffff;
+}
+
+#caddy img {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+/*CUSTOM SCROLLBAR GLOBALLY*/
+aside::-webkit-scrollbar {
+    width: 20px;
+}
+
+aside::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+
+aside::-webkit-scrollbar-corner {
+    background: rgba(0, 0, 0, 0);
+}
+
+
+
+/*CADDY ICON*/
+#caddy-icon-container {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    width: 7rem;
+    height: 7rem;
+    z-index: 2;
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: background-color 500ms;
+}
+
+#caddy-icon-container img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    object-fit: contain;
+}
+
+#caddy-icon-container p {
+    color: black;
+    font-size: 1.2rem;
+    position: absolute;
+    width: 60%;
+}
+
+#caddy-icon-container:hover {
+    background-color: #009246;
+}

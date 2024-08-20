@@ -1,0 +1,45 @@
+.title {
+    margin-left: 5%;
+}
+
+.promo h1 {
+    color: white;
+    text-shadow: -1px 1px 0 #000,
+        1px 1px 0 #000,
+        1px -1px 0 #000,
+        -1px -1px 0 #000;
+    width: 90%;
+    margin: auto;
+    padding-top: 2rem;
+    cursor: default;
+
+
+}
+
+#promo1 h1 {
+    text-align: left;
+}
+
+#promo2 h1 {
+    text-align: right;
+}
+
+.promo {
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#promo1 {
+    background-image: url("../assets/pizza4.jpg");
+    ;
+    background-size: cover;
+}
+
+#promo2 {
+    background-image: url("../assets/pizzadeeg.jpg");
+    background-size: cover;
+
+}

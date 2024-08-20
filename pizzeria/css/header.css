@@ -1,0 +1,83 @@
+/*Variabelen*/
+:root {
+    --tekstkleur: #ffffff;
+    --achtergrondkleurEen: #ce2b37;
+    --achtergrondkleurTwee: #009246;
+    --tekstfontEen: "Amatic SC", sans-serif;
+    --marginLinksRechts: 2vw;
+    --marginBoven: 2vw;
+    --marginOnder: 1.7vw;
+    --paddingBoven: 1.7vw;
+    --paddingOnder: 1.5vw;
+    --negPaddingOnder: -1.5vw;
+    --negPaddingBoven: -1.7vw;
+    --negMarginOnder: -1.7vw;
+    --negMarginBoven: -2vw;
+    --negMarginLinksRechts: -2vw;
+}
+
+
+
+/*CSS resets*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--tekstfontEen);
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: var(--tekstkleur);
+}
+
+header {
+    background-color: var(--achtergrondkleurTwee);
+}
+
+nav {
+    width: 100%;
+    align-items: flex-end;
+    text-align: center;
+
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 12rem;
+}
+
+#home,
+#promoties,
+#overOns {
+    color: var(--tekstkleur);
+    font-weight: 50;
+    padding: 0 1rem 0 1rem;
+    transition: color 200ms;
+
+    transition: color 500ms;
+    transition: background-color 500ms;
+
+}
+
+#home:hover,
+#promoties:hover,
+#overOns:hover {
+    color: var(--achtergrondkleurTwee);
+    background-color: var(--tekstkleur);
+}
+
+#logo {
+    width: 7.8rem;
+}
