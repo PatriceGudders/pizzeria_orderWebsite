@@ -37,11 +37,11 @@ Deze website bevat de volgende secties:
 
 1. Clone de repository:
     ```bash
-    git clone https://github.com/jouw-gebruikersnaam/pizzeria-website.git
+    git clone https://github.com/jouw-gebruikersnaam/pizzeria_orderWebsite.git
     ```
 2. Navigeer naar de projectmap:
     ```bash
-    cd pizzeria-website
+    cd pizzeria_orderWebsite
     ```
 3. Installeer de vereiste dependencies:
     ```bash
